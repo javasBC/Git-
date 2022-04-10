@@ -1,0 +1,69 @@
+cd proj
+
+git init
+
+cd ..
+
+cd proj
+
+ls
+
+
+ls -a
+
+cd .git/
+
+ls
+
+cd ..
+
+ls
+
+clear
+
+cd .git
+
+
+cd ..
+
+ls
+
+clear
+
+echo hi
+
+echo world
+
+echo hello > file1.txt
+
+echo world > file2.txt
+
+ll
+
+git status
+
+git add file1.txt
+
+git status
+
+git add .
+
+git status
+
+git commit -m "add hello world f1 f2"
+
+git config -l
+
+cd ..
+
+echo 1 > 1.txt
+
+git add .
+
+cd proj
+
+git log
+
+git log --oneline
+
+git status
